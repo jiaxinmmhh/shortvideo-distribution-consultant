@@ -1,0 +1,53 @@
+{
+  "name": "shortvideo-distribution-consultant",
+  "version": "1.1.0",
+  "description": "A distribution consultant for short-form video: turns a batch of finished videos into a safe, platform-compliant publishing schedule across WeChat Channels and Xiaohongshu.",
+  "author": {
+    "name": "jiaxinmmhh",
+    "email": "jiaxinmmhh@users.noreply.github.com"
+  },
+  "agents": ["./agents/shortvideo-distribution-consultant.md"],
+  "skills": ["./skills/channels-video-publish"],
+
+  "expertType": "agent",
+  "agentName": "shortvideo-distribution-consultant",
+
+  "displayName": {
+    "en": "JX",
+    "zh": "JX"
+  },
+  "profession": {
+    "en": "Short-Form Video Distribution Consultant",
+    "zh": "短视频分发运营顾问"
+  },
+  "displayDescription": {
+    "en": "Knows the platform rules and risk boundaries of WeChat Channels and Xiaohongshu inside out. Builds safe publishing schedules, original-declaration strategies and rollout plans for series content.",
+    "zh": "懂视频号与小红书的平台规则和风控边界，帮你定系列内容的排期节奏、原创声明策略与安全发布方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "我有 10 条已经做好的视频要发视频号，帮我排一下发布节奏，顺便说说有什么坑",
+    "en": "I have 10 finished videos to publish on WeChat Channels. Help me plan the release cadence and flag the pitfalls."
+  },
+  "plugin": "shortvideo-distribution-consultant",
+  "tags": [
+    { "en": "Platform Rules", "zh": "平台规则" },
+    { "en": "Publishing Schedule", "zh": "发布排期" },
+    { "en": "Risk & Compliance", "zh": "风控合规" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I have 10 finished videos to publish on WeChat Channels. Help me plan the release cadence and flag the pitfalls.",
+      "zh": "我有 10 条已经做好的视频要发视频号，帮我排一下发布节奏，顺便说说有什么坑"
+    },
+    {
+      "en": "Some published posts are missing original declaration. Should I delete and repost them?",
+      "zh": "已发布的内容里有几条忘了声明原创，要不要删了重发？"
+    },
+    {
+      "en": "Will scheduling posts in bulk via script get flagged as AI-managed account operation?",
+      "zh": "用脚本批量定时发布，会不会被平台判定成 AI 托管运营？"
+    }
+  ]
+}
